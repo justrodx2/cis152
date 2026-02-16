@@ -3,7 +3,7 @@
 Coursework and projects for CIS 152-501, including basic HTML, CSS, and a live website hosted with GitHub Pages.
 
 <ul>
-  <li><a href="https://github.com/justrodx2/cis152/tree/main/chapter1">Chapter 1 Files</a></li>
-  <li><a href="https://github.com/justrodx2/cis152/tree/main/chapter2">Chapter 2 Files</a></li>
-  <li><a href="https://github.com/justrodx2/cis152/tree/main/chapter3">Chapter 3 Files</a></li>
+  <li><a href="https://justrodx2.github.io/cis152/chapter1/index.html">Chapter 1 Webpage [My First Paragraph]</a></li>
+  <li><a href="https://justrodx2.github.io/cis152/chapter2/pacific/index.html">Chapter 2 Webpage [Pacific Trails Resort]</a></li>
+  <li><a href="https://justrodx2.github.io/cis152/chapter3/yoga/index.html">Chapter 3 Webpage [Path of Light Yoga Studio]</a></li>
 </ul>
