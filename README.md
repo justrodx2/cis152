@@ -10,4 +10,5 @@ Coursework and projects for CIS 152-501, including basic HTML, CSS, and a live w
   <li><a href="https://justrodx2.github.io/cis152/chapter5/ch5pacific/index.html">Chapter 5 Webpage [Pacific Trails Resort]</a></li>
   <li><a href="https://justrodx2.github.io/cis152/chapter6/ch6pacific/index.html">Chapter 6 Webpage [Pacific Trails Resort]</a></li>
   <li><a href="https://justrodx2.github.io/cis152/chapter7/ch7pacific/index.html">Chapter 7 Webpage [Pacific Trails Resort]</a></li>
+  <li><a href="https://justrodx2.github.io/cis152/chapter8/ch8pacific/index.html">Chapter 8 Webpage [Pacific Trails Resort]</a></li>
 </ul>
