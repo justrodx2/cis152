@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Book your stay at Pacific Trails Resort. Contact us to reserve nights in our coastal retreat and plan your relaxing getaway today."
+          name="description">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="pacific.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          referrerpolicy="no-referrer" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="yurts.html"><b>Yurts</b></a></li>
+            <li><a href="activities.html"><b>Activities</b></a></li>
+            <li><a href="reservations.html"><b>Reservations</b></a></li>
+            <li><a href="about.html"><b>Our Story</b></a></li>
+        </ul>
+    </nav>
+
+    <div id="reservations-hero"></div>
+
+    <!--main>h2{}+p{}-->
+    <main>
+        <div class="center">
+            <h2>Reservations at Pacific Trails</h2>
+            <h3>Contact Us Today!</h3>
+            <p>Required fields are marked with an asterisk *.</p>
+        </div>
+
+        <form action="https://webdevbasics.net/scripts/pacific.php" autocomplete="on" method="post">
+            <label for="myFName">*First Name:</label>
+            <input aria-required="true" autocomplete="given-name" id="myFName" name="myFName" required type="text"/>
+
+            <label for="myLName">*Last Name:</label>
+            <input aria-required="true" autocomplete="family-name" id="myLName" name="myLName" required type="text"/>
+
+            <label for="myEmail">*E-mail:</label>
+            <input aria-required="true" autocomplete="email" id="myEmail" name="myEmail" required type="email"/>
+
+            <label for="myPhone">Phone:</label>
+            <input autocomplete="tel" id="myPhone" maxlength="12" name="myPhone" type="tel"/>
+
+            <label for="myArrival">Arrival Date:</label>
+            <input autocomplete="off" id="myArrival" name="myArrival" type="date"/>
+
+            <label for="myNights">Nights:</label>
+            <input autocomplete="off" id="myNights" max="14" min="1" name="myNights" type="number"/>
+
+            <label for="myComments">Comments:</label>
+            <textarea aria-required="true" autocomplete="off" cols="30" id="myComments" name="myComments" required
+                      rows="2"></textarea>
+
+            <input type="submit" value="Submit"/>
+        </form>
+
+        <!--div>p-->
+        <address class="center" id="contact">
+            <span class="resort">Pacific Trails Resort</span> <br>
+            12010 Pacific Trails Road <br>
+            Zephyr, CA 95555 <br>
+            <br>
+            <a href="tel:888-555-1212">888-555-1212</a><br>
+        </address>
+    </main>
+
+    <!--footer>p*2-->
+    <footer>
+        <p>Copyright &copy; 2026 Pacific Trails Resort | <a href="mailto:rodrigonavarro@example.com">Rodrigo
+            Navarro</a></p>
+    </footer>
+</div>
+</body>
+</html>
